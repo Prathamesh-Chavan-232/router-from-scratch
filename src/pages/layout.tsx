@@ -4,6 +4,7 @@ const AboutLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className="about-layout">
       <nav>Root level Navigation</nav>
+      <nav>Navbar</nav>
       <main>{children}</main>
       <Link to="/home">Home page</Link>
       <Link to="/">Root page</Link>
