@@ -6,4 +6,8 @@ const AboutPage: React.FC = () => {
     </div>
   );
 };
+
 export default AboutPage;
+
+
+/products/:productId/users/:userId
